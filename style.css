@@ -466,6 +466,9 @@ nav ul li a {
   padding: 60px 40px 30px;
 }
 
+.footer-container {
+  display: flex;
+}
 .footer-reviews {
   max-width: 1200px;
   margin: 0 auto;
@@ -473,6 +476,12 @@ nav ul li a {
   flex-wrap: wrap;
   justify-content: space-between;
   gap: 40px;
+}
+
+.column {
+  width: 600px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .footer-column h4 {
@@ -581,10 +590,13 @@ nav ul li a {
   .footer-reviews {
     flex-direction: column;
   }
+
+  .footer-column {
+    display: none;
+  }
 }
 
 @media (max-width: 768px) {
-
   .hero-text h1 {
     font-size: 28px;
   }
@@ -595,7 +607,6 @@ nav ul li a {
   .hashtag h2 {
     font-size: 28px;
   }
-
 
   .reviews {
     flex-direction: column;
