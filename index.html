@@ -3,13 +3,27 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-1LF9B87YS3"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-1LF9B87YS3");
+    </script>
     <link rel="stylesheet" href="style.css" />
     <title>Ehya</title>
   </head>
   <body>
     <header>
       <div class="logo">ehya</div>
-       <button class="menu-btn" id="menu-btn">☰</button>
+      <button class="menu-btn" id="menu-btn">☰</button>
 
       <nav id="nav-menu">
         <ul>
@@ -118,10 +132,7 @@
         </p>
 
         <div class="user-info">
-          <img
-            src="./images/user.svg"
-            alt="Jaquon Hart"
-          />
+          <img src="./images/user.svg" alt="Jaquon Hart" />
           <div>
             <div class="name">Jaquon Hart</div>
             <div class="title">Digital Marketing Executive, Hypebeast</div>
@@ -144,22 +155,10 @@
         <h2>Grow your brand<br />presence on social media 😍</h2>
         <p>Join with more 1200+ happy customers</p>
         <div class="avatars">
-          <img
-            src="./images/customer-1.svg"
-            alt="User 1"
-          />
-          <img
-            src="./images/customer-2.svg"
-            alt="User 2"
-          />
-          <img
-            src="./images/customer-3.svg"
-            alt="User 3"
-          />
-          <img
-            src="./images/customer-4.svg"
-            alt="User 4"
-          />
+          <img src="./images/customer-1.svg" alt="User 1" />
+          <img src="./images/customer-2.svg" alt="User 2" />
+          <img src="./images/customer-3.svg" alt="User 3" />
+          <img src="./images/customer-4.svg" alt="User 4" />
           <span style="color: #e0f0ff; font-size: 14px">and others</span>
         </div>
       </div>
@@ -174,10 +173,10 @@
           <h2>ehya<span style="color: #2b6cb0">.</span></h2>
           <p>Build a modern and creative website with crealand</p>
           <div class="social-icons">
-            <img src="./images/Icon-G.svg" alt="">
-            <img src="./images/Icon-T.svg" alt="">
-            <img src="./images/Icon-I.svg" alt="">
-            <img src="./images/Icon-L.svg" alt="">
+            <img src="./images/Icon-G.svg" alt="" />
+            <img src="./images/Icon-T.svg" alt="" />
+            <img src="./images/Icon-I.svg" alt="" />
+            <img src="./images/Icon-L.svg" alt="" />
           </div>
         </div>
 
@@ -228,8 +227,6 @@
         <p>Copyright © 2025. Crafted with love.</p>
       </div>
     </footer>
-
-
 
     <script src="script.js"></script>
   </body>
